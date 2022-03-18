@@ -1,77 +1,32 @@
 .chakra-ui-light{
-  background-color: #edddfd;
-}
-.main-box {
-  border-radius: 15px !important;
-  box-shadow: unset !important;
-}
-.chakra-ui-light .main-box {
-  background-color: rgba(255,255,255,0.9) !important;
-}
-.chakra-ui-light .readme-box {
-  background-color: rgba(255,255,255,0.9) !important;
-}
-.readme-box {
-  border-radius: 15px !important;
-  box-shadow: unset !important;
-}
-
-.chakra-ui-light{
   background-image: url("https://www.dmoe.cc/random.php") !important;
   background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position-x:center;
 }
-.main-box {
-  border-radius: 15px !important;
+ 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+html,body,#text-center,#content,ul{
+    width: 100%;
+    height: 100%;
 }
-.chakra-ui-light .main-box {
-  background-color: #ffffff70 !important;
+ul{
+    background:url(https://www.dmoe.cc/random.php);/*填满缝隙*/
+    position: relative;
 }
-.chakra-ui-light .readme-box {
-  background-color: white !important;
+li{
+    list-style: none;
+    position: absolute;
 }
-.readme-box {
-  border-radius: 15px !important;
+/*主要代码*/
+.li0{
+    background: url(https://www.dmoe.cc/random.php) no-repeat top;
+    background-size: contain;
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
-</style>
-
-.chakra-ui-light{
-  background-image: linear-gradient(120deg,#e0c3fc 0%,#8ec5fc 100%) !important;
-  background-attachment: fixed;
-}
-.main-box {
-  border-radius: 15px !important;
-}
-.chakra-ui-light .main-box {
-  background-color: white !important;
-}
-.chakra-ui-light .readme-box {
-  background-color: white !important;
-}
-.readme-box {
-  border-radius: 15px !important;
-}
-
-<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
-
-<script>
-    L2Dwidget.init({
-        "model": {
-            jsonPath: "https://blog.imlete.cn/live2d/assets/weier.model.json",<!--这里改模型，前面后面都要改-->
-            "scale": 0.8
-        },
-        "display": {
-            "position": "right",<!--设置看板娘的上下左右位置-->
-            "width": 50,
-            "height": 100,
-            "hOffset": 50,
-            "vOffset": -10
-        },
-        "mobile": {
-            "show": true,
-            "scale": 0.5
-        },
-        "react": {
-            "opacityDefault": 1,<!--设置透明度-->
-            "opacityOnHover": 0.2
-        }
-    });
