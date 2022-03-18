@@ -15,7 +15,7 @@ $("html").click(function() {
             // 头像链接地址
             headimg = "",
             // 博主铭言句子
-            motto = "",
+            motto = "道法自然",
             // 配置 - 导航内容及链接【注：名称和链接需要一一对应，用英文逗号隔开】
             linkname = ["首页", "星环博客"],
             link = ["/", "https://www.xhto.cn/"],
