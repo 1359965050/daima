@@ -1,4 +1,22 @@
 .chakra-ui-light{
+  background-color: #edddfd;
+}
+.main-box {
+  border-radius: 15px !important;
+  box-shadow: unset !important;
+}
+.chakra-ui-light .main-box {
+  background-color: rgba(255,255,255,0.9) !important;
+}
+.chakra-ui-light .readme-box {
+  background-color: rgba(255,255,255,0.9) !important;
+}
+.readme-box {
+  border-radius: 15px !important;
+  box-shadow: unset !important;
+}
+
+.chakra-ui-light{
   background-image: url("https://www.dmoe.cc/random.php") !important;
   background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position-x:center;
 }
